@@ -1,0 +1,9 @@
+.calculationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-size: 18px;
+}

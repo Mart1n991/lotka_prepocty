@@ -1,0 +1,8 @@
+.active {
+  background-color: #52aeb4;
+  pointer-events: none;
+}
+
+.circle {
+  border-radius: 50%;
+}
