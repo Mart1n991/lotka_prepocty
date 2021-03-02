@@ -35,8 +35,10 @@ function App({ formVariant, formType, userInput, defaultValue, newValue, reCalc,
   const showResult = () => {
     if (result) {
       return (
-        <div className="result">
-          <h1 className="result-heading">{result}</h1>
+        <div>
+          <div className="result">
+            <h1 className="result-heading">{result}</h1>
+          </div>
         </div>
       );
     } else {
